@@ -1,0 +1,13 @@
+@import "../global/global_style.scss";
+
+main {
+  @include alinha_centro();
+  justify-content: space-around;
+  background-color: $cor-de-fundo;
+}
+
+main h1 {
+  font-family: $fonte-base;
+  font-size: 18px;
+  color: $verde-base;
+}

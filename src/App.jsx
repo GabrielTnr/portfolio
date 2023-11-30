@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Header from './Components/header/header'
+import Header from './Components/inicio/inicio'
 
 function App() {
 
