@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin alinha_centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$fonte-base: "Space Grotesk";
+$verde-base: #94FF8E;
+$cor-de-fundo: #131313;

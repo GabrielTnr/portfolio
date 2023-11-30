@@ -1,0 +1,37 @@
+@import "../global/global_style.scss";
+
+header {
+  background-color: $cor-de-fundo;
+  background-image: url("https://i.imgur.com/PQQVmUe.png");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+}
+
+nav {
+  @include alinha_centro();
+  justify-content: space-evenly;
+}
+
+header h1 {
+  @include alinha_centro();
+  font-family: $fonte-base;
+  font-size: 24px;
+  color: $verde-base;
+  width: 50vw;
+}
+
+header ul {
+  @include alinha_centro();
+  justify-content: space-around;
+  width: 50vw;
+  height: 14vh;
+}
+
+header li {
+  font-family: $fonte-base;
+  font-size: 18px;
+  list-style: none;
+  color: white;
+}
