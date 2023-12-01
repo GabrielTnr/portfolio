@@ -4,6 +4,7 @@ main {
   @include alinha_centro();
   justify-content: space-around;
   background-color: $cor-de-fundo;
+  height: 100vh;
 }
 
 main h1 {
