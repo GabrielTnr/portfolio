@@ -1,6 +1,6 @@
-import "./inicio_style.scss"
+import "./sobre_style.scss"
 
-export default function Inicio() {
+export default function Sobre() {
   return (
     <>
       <main>

@@ -14,10 +14,10 @@ nav {
   justify-content: space-evenly;
 }
 
-header h1 {
+nav h1 {
   @include alinha_centro();
   font-family: $fonte-base;
-  font-size: 24px;
+  font-size: 22px;
   color: $verde-base;
   width: 50vw;
 }
@@ -34,4 +34,37 @@ header li {
   font-size: 18px;
   list-style: none;
   color: white;
+}
+
+section {
+  @include alinha_centro();
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  height: 80vh;
+}
+
+section h1 {
+  font-family: $fonte-base;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-family: $fonte-base;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.textoVerde {
+  color: $verde-base;
+}
+
+header img {
+  width: 3vw;
+  margin-left: 1.5rem;
+  border-radius: 5rem;
 }

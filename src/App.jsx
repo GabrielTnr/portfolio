@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import Header from './Components/inicio/inicio'
+import Inicio from './Components/inicio/inicio'
+import Sobre from './Components/sobre/sobre'
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <Inicio />
     </>
   )
 }
