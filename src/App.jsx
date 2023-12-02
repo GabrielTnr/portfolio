@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Inicio />
+      <Sobre />
     </>
   )
 }

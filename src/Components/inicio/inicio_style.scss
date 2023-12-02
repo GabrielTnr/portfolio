@@ -17,7 +17,7 @@ nav {
 nav h1 {
   @include alinha_centro();
   font-family: $fonte-base;
-  font-size: 22px;
+  font-size: $fonte-maior;
   color: $verde-base;
   width: 50vw;
 }
@@ -31,12 +31,12 @@ header ul {
 
 header li {
   font-family: $fonte-base;
-  font-size: 18px;
+  font-size: $fonte-menor;
   list-style: none;
   color: white;
 }
 
-section {
+header section {
   @include alinha_centro();
   flex-direction: column;
   text-align: center;
@@ -44,19 +44,19 @@ section {
   height: 80vh;
 }
 
-section h1 {
+header section h1 {
   font-family: $fonte-base;
-  font-size: 22px;
+  font-size: $fonte-maior;
   color: white;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
-section p {
+header section p {
   font-family: $fonte-base;
-  font-size: 18px;
+  font-size: $fonte-menor;
   color: white;
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 .textoVerde {
@@ -65,6 +65,6 @@ section p {
 
 header img {
   width: 3vw;
-  margin-left: 1.5rem;
-  border-radius: 5rem;
+  margin-left: 15px;
+  border-radius: 5em;
 }

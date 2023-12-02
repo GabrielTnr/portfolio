@@ -2,13 +2,82 @@
 
 main {
   @include alinha_centro();
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: $cor-de-fundo;
   height: 100vh;
 }
 
 main h1 {
   font-family: $fonte-base;
-  font-size: 18px;
+  font-size: $fonte-maior;
   color: $verde-base;
+  text-align: center
+}
+
+main .estudos {
+  @include alinha_centro();
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 40vh;
+}
+
+.estudos div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 35vw;
+  height: 25vh;
+  border: solid $verde-base;
+  border-width: thin;
+  padding: 10px;
+}
+
+main p {
+  font-family: $fonte-base;
+  font-size: $fonte-menor;
+  color: white;
+}
+
+.tecnologias figure {
+  @include alinha_centro();
+  justify-content: space-between;
+  width: 77vw;
+}
+
+.tecnologias img {
+  width: 8vw;
+  border-radius: 10em;
+}
+
+.sassImg {
+  height: 16.75vh;
+}
+
+.tecnologias div {
+  @include alinha_centro();
+  width:9vw;
+  height: 19vh;
+  border-radius: 10em;
+}
+
+.htmlIcon {
+  border: solid #FF6600;
+}
+
+.cssIcon {
+  border: solid  #6888e7;
+}
+
+.jsIcon {
+  border: solid #fff000;
+}
+
+.reactIcon {
+  border: solid #4CC9F0;
+}
+
+.sassIcon {
+  border: solid #d24787
 }
