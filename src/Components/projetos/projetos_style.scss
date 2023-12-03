@@ -1,0 +1,14 @@
+@import "../global/global_style.scss";
+
+.projetos {
+  @include alinha_centro();
+  justify-content: space-evenly;
+  width: 96vw;
+}
+
+.projetos img {
+  
+  width: 30vw;
+  height: 28vh;
+  border: solid $verde-base;
+}
